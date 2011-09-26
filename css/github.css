@@ -1,0 +1,30 @@
+/*
+@name          Readable Github
+@namespace     http://po-ru.com/
+@description   GitHub I can read
+@author        Paul Battley
+@include       http://github.com/*
+@include       https://github.com/*
+@include       http://*.github.com/*
+@include       https://*.github.com/*
+@run-at        document-start
+*/
+a {
+  color: hsl(210, 53%, 40%) !important;
+}
+a.button {
+  color: white !important;
+}
+.tree-browser {
+  font-family: monospace !important;
+}
+.tree-browser td {
+  background: hsl(0, 0%, 97%) !important;
+}
+.tree-browser td,
+.tree-browser td a.message {
+  color: black !important;
+}
+#header a.unread_count.new {
+  color: white !important;
+}
